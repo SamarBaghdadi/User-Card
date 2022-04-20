@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+.container {
+  margin: 20px;
+  height: 400px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  height: 100px;
+  background-color: rgb(84, 143, 161);
+}
+.bodies {
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  padding-top: 50px;
+  padding-left: 30px;
+  border-left: 4px solid rgb(190, 185, 185);
+  border-right: 4px solid rgb(190, 185, 185);
+  border-bottom: 4px solid rgb(190, 185, 185);
+}
+.job {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.profile {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+h1 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.user-circle {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  border: 3px solid rgb(190, 185, 185);
+  border-radius: 90px;
+  padding: 1px;
+}
+.icons {
+  height: 20px;
+  width: 20px;
+  padding: 1px;
+  margin: 5px;
+}
